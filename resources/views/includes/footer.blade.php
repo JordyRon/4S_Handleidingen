@@ -1,10 +1,22 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+	<p>© {{ __('misc.copyright') }}</p>
+    <a class="about" href="#">Over ons</a>
+    <div class="about">
+        <div class="contact">
+            <p>0634668504</p>
+            <p>jordy@tronsoft.nl</p>
+        </div>
+        <div class="socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
 </footer>
 
 
-<!-- analytics code -->              
+<!-- analytics code -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -19,10 +31,10 @@
 </script>
 <!-- Einde analytics code -->
 
-<script language="Javascript" type="text/javascript"> 
- <!-- 
- if (top.location!= self.location) { 
+<script language="Javascript" type="text/javascript">
+ <!--
+ if (top.location!= self.location) {
   top.location = self.location.href
- } 
-//--> 
+ }
+//-->
 </script>
